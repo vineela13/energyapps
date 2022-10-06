@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;1,200&display=swap');
+/* monitor 1880px  */
+@media only screen and (max-width: 1880px) {
+  .forMobileView {
+    display: none;
+  }
+}
+/* laptop 1024px  */
+@media only screen and (max-width: 1024px) {
+  .forMobileView {
+    display: none;
+  }
+}
+/* Tablet 768px  */
+@media only screen and (max-width: 768px) {
+  .forMobileView {
+    display: none;
+  }
+}
+/* mobile 425px  */
+@media only screen and (max-width: 425px) {
+  .forMobileView {
+    display: inline;
+    width: 100%;
+  }
+
+  .logoMobile {
+    margin-top: -450px;
+    margin-left: 50px;
+    z-index: 1;
+  }
+
+  .inloggen {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    color: #52606d;
+    margin-top: 57.7px;
+    margin-left: 32px;
+    margin-bottom: 38.3px;
+  }
+
+  .emailNInput {
+    margin-left: 32px;
+  }
+
+  .emailLabel {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3e4c59;
+  }
+
+  .emailInput {
+    width: 90%;
+    margin-bottom: 24px;
+    padding-left: 40px;
+  }
+.Wachtwoord{
+    text-indent: 25px;
+    position: relative;
+}
+  .WachtwoordNInput {
+    margin-left: 32px;
+  }
+
+  .WachtwoordLabel {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3e4c59;
+  }
+
+  .WachtwoordInput {
+    position:absolute;
+    width: 90%;
+    /* padding-left: 40px; */
+  }
+
+  .loginButton {
+    background: #9aa5b1;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    box-shadow: 0px 2px 9px 3px rgba(50, 63, 75, 0.12);
+    border-radius: 8px;
+    color: #fff;
+    margin-left:32px;
+    margin-right:32px;
+
+  }
+
+  .footerButton {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 50px;
+  }
+
+ .message{
+    position :absolute;
+    z-index: 1;
+    margin-top:5px;
+    margin-left:10px;
+  }
+ .lock{
+    position : absolute;
+    z-index: 1;
+    margin-top:5px;
+    margin-left:-15px;
+
+ }
+}
